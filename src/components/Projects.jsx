@@ -80,7 +80,7 @@ function Projects() {
      {project.number === "01" && (
       <video
     className="project-video"
-    src="/videos/hero-video.mp4"
+    src={`${import.meta.env.BASE_URL}videos/hero-video.mp4`}
     autoPlay
     loop
     muted
@@ -95,7 +95,7 @@ function Projects() {
   {project.number === "02" && (
       <video
     className="project-video"
-    src="/videos/hero-video2.mp4"
+    src={`${import.meta.env.BASE_URL}videos/hero-video2.mp4`}
     autoPlay
     loop
     muted
